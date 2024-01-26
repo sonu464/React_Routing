@@ -1,0 +1,24 @@
+.header {
+  max-width: 60rem;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  text-decoration: none;
+  color: #9b5026;
+}
+
+.list a.active,
+.list a:hover {
+  color: #a2420b;
+  text-decoration: underline;
+}
